@@ -4,7 +4,7 @@
 void my_strcat(char dst[], char src[]) {
   int i = 0;
   int len = strlen(dst);
-  while ((dst[i + len] = src[i]) != '\0')
+  while ((dst[i + len] + src[i]) != '\0')
     i++;
 }
 void my_strncat(char dst[], char src[], int n) {
