@@ -1,0 +1,45 @@
+
+
+			****************************
+
+-./01PA3:
+	--Test Case #0:
+STDIN:[
+This is a simple example with 8 words.
+]
+CLAs:[./01PA3 ]
+STDOUT:[
+bucketsort: Too few arguments.
+
+]
+	--Test Case #1:
+STDIN:[
+This is a simple example with 8 words.
+]
+CLAs:[./01PA3 strawberry blackberry ]
+STDOUT:[
+bucketsort: the CLAs must be alphabetically sorted!
+
+]
+	--Test Case #2:
+STDIN:[
+This is a simple example with 8 words.
+]
+CLAs:[./01PA3 apple carrot kiwi pineapple watermelon ]
+STDOUT:[
+bucket #0: 8 a 
+bucket #2: example is 
+bucket #4: simple This 
+bucket #5: with words. 
+
+]
+	--Test Case #3:
+STDIN:[
+I'd rather go shopping than go to the gym!
+]
+CLAs:[./01PA3 mango ]
+STDOUT:[
+bucket #0: go go gym! I'd 
+bucket #1: rather shopping than the to 
+
+]
